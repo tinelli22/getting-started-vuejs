@@ -23,9 +23,10 @@ nav {
   z-index: 2;
   height: 100vh;
   min-width: 210px;
+  max-width: 85%;
   transition: all .4s ease-in-out;
   background-color: var(--color-primary);
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
 nav.open {
@@ -49,6 +50,7 @@ nav.open + .background {
 .icon_close {
   display: block;
   margin-left: auto;
+  margin-right: 1rem;
   width: 24px;
 }
 
